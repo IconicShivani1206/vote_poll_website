@@ -1,0 +1,108 @@
+body{
+    background-image: url("https://th.bing.com/th/id/R.783cb5c33022511d78513e9d9e6e89ad?rik=HCQbPKIoK7awXQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fGkAluzq.jpg&ehk=QvM9bM%2bcWM6%2bwvErgKYJq5%2bRfbOTKqhdW4QBwCTLu7I%3d&risl=&pid=ImgRaw&r=0");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0496b3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #333;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #9a0609;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+}
+/* Add attractive styles for input fields */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Increase font size */
+    transition: border-color 0.3s; /* Add smooth transition for border color */
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #007BFF; /* Highlight border color on focus */
+}
+
+/* Style headings with cool fonts and colors */
+h1 {
+    text-align: center;
+    color: #007BFF; /* Blue color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Choose an attractive font */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-family: 'Lobster', cursive; /* Choose a cool and decorative font */
+}
